@@ -1,0 +1,130 @@
+
+
+nav {
+    background-color: #15052b; /* Fondo del nav */
+    text-align: right; /* Alinear a la izquierda */
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+nav a {
+    color: #ffffff; /* Color inicial del texto */
+    text-decoration: none;
+    margin-right: 15px;
+}
+nav a:hover {
+    color: #c809bb; /* Color del texto al pasar el cursor */
+}
+
+
+
+.bienvenida {
+    display: flex;
+    color:#15052b; 
+    
+}
+
+.imagen {
+    margin-right: 20px; /* Ajusta el espacio entre la imagen y el texto */
+    margin-left: 200px;
+    margin-top: 60px;
+    max-width: 18%;
+    margin-bottom: 30px;
+
+ 
+}
+
+.texto {
+
+    margin-left: 200px;
+    margin-top:100px ;
+    color: #15052b;;
+    font-family: Arial, Helvetica, sans-serif;
+    /* Puedes agregar más estilos aquí si lo deseas */
+}
+
+    
+.textos{
+    margin-top: 50px;
+   text-align: center; 
+  
+   color: #15052b;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.linea-horizontal {
+    border: none;
+    border-top:10px solid #15052b;
+    margin: 20px 0;
+    width: 100%;
+}
+
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+h1 {
+    text-align: center;
+   color: #15052b;
+   
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 100px;
+}
+
+li {
+    background: #fff;
+    margin: 10px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    
+}
+
+a {
+    text-decoration: none;
+color: #15052b;
+}
+
+a:hover {
+    color: #007BFF;
+}
+
+
+footer {
+    background-color: #15052b;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+   
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-icon img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s;
+}
+
+.social-icon img:hover {
+    transform: scale(1.2);
+}
+
+
+
+
